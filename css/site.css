@@ -52,7 +52,7 @@ a {
 /* Biographical style elements */
 
 /* when an element is referenced by class, it starts with a dot */
-.major-section {
+main, .major-section {
   /* a shortcut to set three different border propoerties */
   border: solid 1px #888;
   padding-left: 20px;
@@ -70,7 +70,7 @@ a {
 #headshot {
   float: right;
   /* if we don't specify which margin, it applies to top, bottom, left, & right */
-  margin: 10px; 
+  margin: 10px;
 }
 
 #headshot img {
