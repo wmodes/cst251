@@ -1,0 +1,37 @@
+
+/* Most general at top */
+
+html, body {
+  background-color: rebeccapurple;
+}
+
+#content {
+  /* Modify the margins and padding of your content div */
+  margin: 50px;
+  padding: 20px;
+  /* Add a border */
+  border: dashed 50px aquamarine;
+  /* Change the color of your body and your content div */
+  background-color: yellow;
+}
+
+/********************************/
+/* Divided into useful sections */
+/********************************/
+
+/* Style your image, and adjust the height or the width of your image */
+.feature-image {
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  background-color: hotpink;
+  float: right;
+}
+
+.feature-image img {
+  max-width: 100%;
+  width: 100%;
+}
+
+
+/* Most specific at bottom */
