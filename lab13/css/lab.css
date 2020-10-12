@@ -1,0 +1,92 @@
+
+/* Most general at top */
+
+html, body {
+  background-color: rebeccapurple;
+  background-image: url("../img/tv-eye.gif");
+}
+
+#content {
+    display: inline-block;
+    width: 60%;
+    margin: 20px;
+    padding: 10px;
+    border: dashed 50px aquamarine;
+    background-color: yellow;
+}
+
+/********************************/
+/* Typography */
+/********************************/
+
+body {
+  font-family: "Times New Roman", "Times Roman", serif;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+/********************************/
+/* Headings */
+/********************************/
+
+h1 {
+  margin-top: 8px;
+  margin-left: -10px;
+}
+
+/********************************/
+/* Divided into useful sections */
+/********************************/
+
+/* Most general at top of each section */
+
+/* Style your image, and adjust the height or the width of your image */
+.feature-image {
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  background-color: hotpink;
+}
+
+.feature-image img {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* Most specific at bottom of each section */
+
+#sidebar {
+  float: right;
+  margin: 20px;
+  width: 25%;
+  min-width: 300px;
+  border: solid 3px red;
+  background-color: tan;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: teal;
+  border: dotted 10px yellow;
+  color: yellow;
+}
+
+nav a {
+  color: yellow;
+}
+
+/* iframe! */
+
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
+
+/* Most specific at bottom */
