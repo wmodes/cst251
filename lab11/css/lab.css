@@ -7,13 +7,12 @@ html, body {
 }
 
 #content {
-  /* Modify the margins and padding of your content div */
-  margin: 50px;
-  padding: 20px;
-  /* Add a border */
-  border: dashed 50px aquamarine;
-  /* Change the color of your body and your content div */
-  background-color: yellow;
+    display: inline-block;
+    width: 60%;
+    margin: 20px;
+    padding: 10px;
+    border: dashed 50px aquamarine;
+    background-color: yellow;
 }
 
 /********************************/
@@ -51,7 +50,6 @@ h1 {
   margin: 10px;
   padding: 10px;
   background-color: hotpink;
-  float: right;
 }
 
 .feature-image img {
@@ -61,7 +59,26 @@ h1 {
 
 /* Most specific at bottom of each section */
 
+#sidebar {
+  float: right;
+  margin: 20px;
+  width: 25%;
+  min-width: 300px;
+  border: solid 3px red;
+  background-color: tan;
+}
 
+nav {
+  position: sticky;
+  top: 0;
+  background-color: teal;
+  border: dotted 10px yellow;
+  color: yellow;
+}
+
+nav a {
+  color: yellow;
+}
 
 
 /* Most specific at bottom */
