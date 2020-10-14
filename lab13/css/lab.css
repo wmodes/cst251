@@ -3,12 +3,12 @@
 
 html, body {
   background-color: rebeccapurple;
-  background-image: url("../img/tv-eye.gif");
+  /* background-image: url("../img/tv-eye.gif"); */
 }
 
 #content {
     display: inline-block;
-    width: 60%;
+    width: 90%;
     margin: 20px;
     padding: 10px;
     border: dashed 50px aquamarine;
@@ -82,11 +82,25 @@ nav a {
 
 /* iframe! */
 
-iframe#fake {
+.screenshot {
     width: 800px;
-    height: 500px;
+    height: auto;
     resize: both;
     overflow: hidden;
 }
+
+.screenshot img {
+  width: 100%;
+  max-width: 100%;
+}
+
+iframe#fake {
+    width: 800px;
+    height: 600px;
+    resize: both;
+    overflow: hidden;
+    border: none;
+}
+
 
 /* Most specific at bottom */
