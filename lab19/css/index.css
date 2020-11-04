@@ -1,10 +1,10 @@
 div.col {
   min-height: 200px;
   text-align: center;
-  border: solid 2px black;
-  min-width: 200px;
+  border: solid 1px black;
+  /* min-width: 200px; */
 }
 
 div.row {
-    padding: 10px;
+    /* padding: 10px; */
 }
