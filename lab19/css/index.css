@@ -1,10 +1,15 @@
-div.col {
+.col {
   min-height: 200px;
-  text-align: center;
+  /* text-align: center; */
   border: solid 1px black;
   /* min-width: 200px; */
 }
 
-div.row {
-    /* padding: 10px; */
+.col h1, .col h2 {
+  text-align: center;
+}
+
+.row {
+  border: solid 1px gray;
+  /* padding: 10px; */
 }
