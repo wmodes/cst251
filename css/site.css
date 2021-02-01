@@ -52,7 +52,7 @@ a {
 /* Biographical style elements */
 
 /* when an element is referenced by class, it starts with a dot */
-main, .major-section {
+main, .major-section, #content {
   /* a shortcut to set three different border propoerties */
   border: solid 1px #888;
   padding-left: 20px;
