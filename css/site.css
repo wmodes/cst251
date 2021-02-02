@@ -80,6 +80,10 @@ main, .major-section, #content {
   /*max-width: 50%;*/
 }
 
+img {
+  max-width: 100%;
+}
+
 #title {
   font-weight: bold;
   font-size: 120%;
