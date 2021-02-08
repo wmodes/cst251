@@ -6,3 +6,8 @@ html, body {
   color: #404040;
   background-color: #efebdc;
 }
+
+
+img {
+    max-width: 800px;
+}
