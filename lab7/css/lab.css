@@ -1,16 +1,40 @@
 
 body {
   background-color: #87645c;
+  /* because the image is outside of our css folder,
+    we have to step back to our parent folder before looking in img */
   background-image: url("../img/alissona-dark-forest.jpg");
   background-size: cover;
 }
 
+h1, h2, h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  word-spacing: 0.5em;
+  font-family: sans-serif;
+  padding-bottom: 0;
+  margin-bottom: 0.25em;
+}
+
+h1 {
+  font-size: 3.5vw;
+}
+h2 {
+  font-size: 2.5vw;
+}
+h3 {
+  font-size: 1.5vw;
+}
+
+p {
+  margin-top: 0;
+}
 .major-section {
   margin: 20px;
   padding: 10px;
   border: solid 1px #606060;
   border-radius: 5px;
-  background-color: rgba(212, 156, 144, 0.5);
+  background-color: rgba(212, 156, 144, 0.6);
 }
 
 .minor-section {
