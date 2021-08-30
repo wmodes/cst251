@@ -1,0 +1,44 @@
+
+body {
+  /* font-size: 200%; */
+  background-image: url("../../img/bright-desert.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header, footer, nav, article, section, aside, main {
+  border: solid 1px gray;
+  padding: 10px;
+  margin: 10px;
+}
+
+nav, footer {
+  background-color: rgba(255,255,255,0.5);
+}
+
+img {
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+}
+
+#challenge {
+  border: solid 1px black;
+  /* height: 50vh; */
+  width: 50%;
+  background-color: rgba(255,255,255,0.75);
+}
+
+#content {
+  font-size: 150%;
+}
+
+figure::first-letter {
+  font-size: 3em;
+}
+
+footer::first-letter {
+  font-size: 3em;
+}
