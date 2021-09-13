@@ -71,18 +71,25 @@ main, .major-section, #content {
 /* when an element is referenced by id, it starts with a #-sign */
 #headshot {
   float: right;
-  /* if we don't specify which margin, it applies to top, bottom, left, & right */
-  margin: 10px;
-}
-
-#headshot img {
   /* units can be specified in pixels */
   width: 400px;
-  /* units can be specified in percentage */
-  /*max-width: 50%;*/
+  /* if we don't specify which margin, it applies to top, bottom, left, & right */
+  margin: 10px;
+  padding: 0;
+  border: solid 1px gray;
+  overflow: hidden;
+}
+#headshot img {
+  transition: all 3s ease-out;
+}
+#headshot img:hover {
+  transform: scale(600%) translate(-15px, 25px);
+  transition: all 3s ease-in;
 }
 
 img {
+  /* units can be specified in percentage */
+  width: 100%;
   max-width: 100%;
 }
 
