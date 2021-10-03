@@ -3,49 +3,75 @@
 <head>
 	<title>Lab 6: More Complicated HTML</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
-
-
 	<link rel="stylesheet" href="css/lab.css">
+
+	<!--link rel="stylesheet" href="css/lab-other.css"-->
 </head>
 <body>
 	<div id="content">
 		<h1>Lab 6: More Complicated HTML</h1>
-		<div id="challenge">
+		<div id="challenge" class="minor-section">
 			<h2>Challenge</h2>
 			<p>The big idea of this particular lab was Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
-		<div id="problems">
+		<div id="problems" class="minor-section">
 			<h2>Problems</h2>
 			<p>Problems we encountered while we were doing the lab included Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
-		<div id="results">
+		<div id="results" class="minor-section">
 			<h2>Results</h2>
 			<p>To solve this design challenge, here's what we did. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 	</div>
 	<!-- Borrowed from Wes Modes https://wmodes.github.io/cst251/lab6/index.html -->
 	<div class="major-section">
-		<h1>Results</h1>
-		<div id="output">
+		<div class="minor-section">
+			<h1>Results</h1>
+			<h2>New New Results</h2>
 			<form action="https://www.google.com/search" method="GET" target="_new">
-  			<label>Search: <input name="q" type="text"></label><br>
-  			<label>Password: <input name="pw" type="password"> </label><br>
-   			<label> Biography: <textarea name="essay"> </textarea </label><br>
-     		<label>Agree: <input name="agree" type="checkbox" value="yes"> </label><br>
-     		<label>Password: <input name="pw" type="password"> </label><br>
-				<label>Gender:
-					<input name="gender" type="radio" value="cat">Cat</label>
-					<input name="gender" type="radio" value="dog">Dog</label>
-				</label><br>
-        <label>Fav Show:
-          <select name="Show">
-            <option selected disabled> Select below </option>
-            <option value="Psych"> Psych </option>
-             <option value="The office"> The office </option>
-          </select>
-        </label><br>
-				<input type="Submit" value="I'm Feeling Lucky">
-      </form>
+				Search term: <input name="q" type="text"><br>
+				<input type="submit">
+			</form>
+		</div>
+
+
+
+		<div class="minor-section">
+			<h2>New Results</h2>
+			<table>
+				<tbody>
+					<tr>
+						<td>Look I have one cell in my table</td>
+						<td>Another cell.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+
+		<div class="minor-section">
+			<h2>Old Results</h2>
+			<div id="output">
+				<form action="https://www.google.com/search" method="GET" target="_new">
+	  			<label>Search: <input name="q" type="text"></label><br>
+	  			<label>Password: <input name="pw" type="password"> </label><br>
+	   			<label> Biography: <textarea name="essay"> </textarea </label><br>
+	     		<label>Agree: <input name="agree" type="checkbox" value="yes"> </label><br>
+	     		<label>Password: <input name="pw" type="password"> </label><br>
+					<label>Gender:
+						<input name="gender" type="radio" value="cat">Cat</label>
+						<input name="gender" type="radio" value="dog">Dog</label>
+					</label><br>
+	        <label>Fav Show:
+	          <select name="Show">
+	            <option selected disabled> Select below </option>
+	            <option value="Psych"> Psych </option>
+	             <option value="The office"> The office </option>
+	          </select>
+	        </label><br>
+					<input type="Submit" value="I'm Feeling Lucky">
+	      </form>
+			</div>
 		</div>
 	</div>
 

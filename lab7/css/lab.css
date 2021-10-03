@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 body {
   background-color: #87645c;
   /* because the image is outside of our css folder,
@@ -11,7 +13,8 @@ h1, h2, h3 {
   text-transform: uppercase;
   letter-spacing: 0.5em;
   word-spacing: 0.5em;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: 'Special Elite', cursive;
   padding-bottom: 0;
   margin-bottom: 0.25em;
 }
