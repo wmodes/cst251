@@ -3,3 +3,17 @@ img {
   float: right;
   margin: 20px;
 }
+
+img:hover {
+    width: 800px;
+    max-width: 800px;
+}
+
+h1#heading:hover {
+    font-size: 300%;
+    color: red;
+}
+
+h1#heading {
+    transition: all 0.5s;
+}
