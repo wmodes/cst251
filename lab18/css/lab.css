@@ -104,3 +104,25 @@ iframe#fake {
 
 
 /* Most specific at bottom */
+
+
+@media screen and (max-width: 800px) {
+  #content {
+    border: dotted 50px red;
+    background-color: black;
+  }
+  body {
+    background-color: yellow;
+    transform: rotate(180deg);
+    color: white;
+  }
+}
+
+@media print {
+  #content {
+    display: none;
+  }
+  body {
+    height: 1000000px;
+  }
+}
