@@ -22,7 +22,7 @@
 			<h2>Results</h2>
 			<p>To solve this design challenge, here's what we did. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
-	</div>
+
 	<!-- Borrowed from Wes Modes https://wmodes.github.io/cst251/lab6/index.html -->
 	<div class="major-section">
 		<div class="minor-section">
@@ -55,21 +55,26 @@
 				<form action="https://www.google.com/search" method="GET" target="_new">
 	  			<label>Search: <input name="q" type="text"></label><br>
 	  			<label>Password: <input name="pw" type="password"> </label><br>
-	   			<label> Biography: <textarea name="essay"> </textarea </label><br>
-	     		<label>Agree: <input name="agree" type="checkbox" value="yes"> </label><br>
+	   			<label>Biography: <textarea name="essay" placeholder="Please type a long ass essay here."></textarea> </label><br>
+	     		<label>Agree: <input name="agree" type="checkbox" value="yes"> I agree to the terms. </label><br>
 	     		<label>Password: <input name="pw" type="password"> </label><br>
-					<label>Gender:
-						<input name="gender" type="radio" value="cat">Cat</label>
-						<input name="gender" type="radio" value="dog">Dog</label>
-					</label><br>
-	        <label>Fav Show:
-	          <select name="Show">
-	            <option selected disabled> Select below </option>
-	            <option value="Psych"> Psych </option>
-	             <option value="The office"> The office </option>
-	          </select>
+					Gender:
+						<label><input name="gender" type="radio" value="cat"> Cat</label>
+						<label><input name="gender" type="radio" value="dog"> Dog</label>
+						<label><input name="gender" type="radio" value="bird"> Bird</label>
+					<br>
+	        <label>Fave Show:
+						<select name="show">
+							<option disabled selected>Please Select</option>
+							<option value="seinfeld">Seinfeld</option>
+							<option value="breaking-bad">Breaking Bad</option>
+							<option value="the-expanse">The Expanse</option>
+							<option value="reservation-dog">Reservation Dogs</option>
+							<option value="sopranos">Sopranos</option>
+							<option value="the-office">The Office (US)</option>
+						</select>
 	        </label><br>
-					<input type="Submit" value="I'm Feeling Lucky">
+					<input type="submit" value="I'm Feeling Lucky">
 	      </form>
 			</div>
 		</div>
@@ -80,6 +85,8 @@
       <li><a href="../index.html">CST251 Homepage</a></li>
     </ul>
 	</nav>
+
+</div>
 
 </body>
 </html>
