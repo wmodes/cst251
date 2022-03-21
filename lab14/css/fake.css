@@ -1,0 +1,87 @@
+
+
+body, #container {
+  position: relative;
+  /* let's make it the size
+  of the screen */
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  /* behind everything */
+  z-index: -100;
+  margin: 0;
+  padding: 0;
+  /* border: solid 1px red; */
+  overflow: hidden;
+  background-color: #222;
+  color: #ccc;
+  font-family: sans-serif;
+}
+
+.format {
+  border: solid 2px red;
+}
+
+/*
+ * NAVIGATION
+ */
+
+#navigation {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 1.75em;
+  background-color: #000;
+}
+
+#navigation .logo {
+  position: absolute;
+  left: 0;
+}
+
+#navigation .nav {
+  position: absolute;
+  right: 0;
+}
+
+#navigation .nav * {
+  display: inline-block;
+}
+
+.nav-char {
+  font-size: 0.75em;
+}
+
+/*
+ * FEATURE
+ */
+
+#feature {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+#feature a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#feature .feature-title {
+  font-size: 2.5em;
+  color: #fff;
+}
+
+#feature .year {
+  font-size: 30vw;
+
+}
+
+.key {
+  font-size: 0.5em;
+  width: 1.5em;
+  height: 1.5em;
+  border: solid 0.5px #ccc;
+}
