@@ -130,7 +130,7 @@ body, #container {
  */
 
 #feature .year {
-  font-size: 37vw;
+  font-size: 28vw;
   line-height: 0.9em;
   font-family: 'Rubik', sans-serif;
   background-color: black;
@@ -140,6 +140,7 @@ body, #container {
 
 #feature .year-wrapper {
   background-image: url(../img/celeb-photo2.jpeg), linear-gradient(90deg, orange, green, #00a1ff );
+  background-size: cover;
   background-blend-mode: soft-light;
   mix-blend-mode: screen;
 }
